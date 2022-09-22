@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView
+
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/colorlist"
+    android:numColumns="2"
+    android:orientation="vertical"
+    tools:context="com.example.android.miwok.Colors">
+    <!--   remaining code for this view-->
+</ListView>

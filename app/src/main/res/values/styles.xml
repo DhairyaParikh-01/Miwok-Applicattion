@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+    
+     <!--App bar Style -->
+    <style name="Miwok_Bar_style" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+     <!--Removing Shadow below the application bar-->
+        <item name="elevation">0dp</item>
+    </style>
+
+     <!-- Code to style the tab that diaplays the category name-->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextAppearance">@style/categoryTabAppearance</item>
+    </style>
+
+      <!--    Text Appearance style for category tab-->
+      <style name="categoryTabAppearance" parent="TextAppearance.Design.Tab">
+          <item name="android:textColor">#A8A19E</item>
+      </style>
+
+    <!-- Style for a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+</resources>
